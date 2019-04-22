@@ -1,0 +1,28 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: ica-adobe-reader
+name: Adobe Acrobat Reader DC
+description: Adobe Acrobat Reader DC
+advice: 
+version: 15.007.20033
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.opsiscript
+uninstallScript: uninstall.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+
+[Changelog]
+ica-adobe-reader (15.007.20033-1) stable; urgency=low
+
+	* initial: created by opsi-setup-detector
+
+ -- opsisetupdetector.exe <info@uib.de>  2/16/2018 13:30:46
